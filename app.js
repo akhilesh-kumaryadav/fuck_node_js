@@ -1,11 +1,8 @@
-require('./xyz');
-const {x, sum} = require('./sum')
+// require('./xyz');
+const {sum, multiply } = require('./calculate')
 
-const name = "Fuck Node.js";
 const a = 10; 
 const b = 20;
 
 sum(a, b)
-
-console.log(name, x);
-console.log(a+b)
+multiply(a,b)
